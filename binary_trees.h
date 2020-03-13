@@ -50,5 +50,6 @@ void _print_level(const binary_tree_t *tree, void (*func)(int), size_t level);
 int binary_tree_is_complete(const binary_tree_t *tree);
 int iscomplete(const binary_tree_t *tree, size_t number_nodes, size_t index);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
